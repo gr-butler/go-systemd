@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"io/ioutil"
+
 	"math/rand"
 	"os"
 	"strings"
