@@ -25,7 +25,7 @@ import (
 
 	"github.com/godbus/dbus/v5"
 
-	sd_dbus "github.com/coreos/go-systemd/v22/dbus"
+	sd_dbus "github.com/gr-butler/go-systemd/v22/dbus"
 )
 
 const (

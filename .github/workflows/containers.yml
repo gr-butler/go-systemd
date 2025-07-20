@@ -13,7 +13,7 @@ permissions:
 env:
   GO_TOOLCHAIN: "1.15"
   GOPATH: "/opt"
-  BUILD_DIR: "/opt/src/github.com/coreos/go-systemd"
+  BUILD_DIR: "/opt/src/github.com/gr-butler/go-systemd"
 
 jobs:
   ditro-test:

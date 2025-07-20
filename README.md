@@ -1,6 +1,6 @@
 # go-systemd
 
-[![godoc](https://img.shields.io/badge/godoc-reference-5272B4)](https://pkg.go.dev/mod/github.com/coreos/go-systemd/v22/?tab=packages)
+[![godoc](https://img.shields.io/badge/godoc-reference-5272B4)](https://pkg.go.dev/mod/github.com/gr-butler/go-systemd/v22/?tab=packages)
 ![minimum golang 1.12](https://img.shields.io/badge/golang-1.12%2B-orange.svg)
 
 
@@ -19,7 +19,7 @@ Go bindings to systemd. The project has several packages:
 
 An example HTTP server using socket activation can be quickly set up by following this README on a Linux machine running systemd:
 
-https://github.com/coreos/go-systemd/tree/main/examples/activation/httpserver
+https://github.com/gr-butler/go-systemd/tree/main/examples/activation/httpserver
 
 ## systemd Service Notification
 
@@ -31,7 +31,7 @@ It can be used to inform systemd of service start-up completion, watchdog events
 The `dbus` package connects to the [systemd D-Bus API](http://www.freedesktop.org/wiki/Software/systemd/dbus/) and lets you start, stop and introspect systemd units.
 [API documentation][dbus-doc] is available online.
 
-[dbus-doc]: https://pkg.go.dev/github.com/coreos/go-systemd/v22/dbus?tab=doc
+[dbus-doc]: https://pkg.go.dev/github.com/gr-butler/go-systemd/v22/dbus?tab=doc
 
 ### Debugging
 

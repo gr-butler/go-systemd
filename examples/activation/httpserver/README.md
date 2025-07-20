@@ -7,7 +7,7 @@ To try it out `go get` the httpserver and run it under the systemd-activate help
 
 ```bash
 export GOPATH="$PWD"
-go get github.com/coreos/go-systemd/examples/activation/httpserver
+go get github.com/gr-butler/go-systemd/examples/activation/httpserver
 systemd-socket-activate -l 127.0.0.1:8076 ./bin/httpserver
 ```
 

@@ -1,4 +1,4 @@
-module github.com/coreos/go-systemd/v22
+module github.com/gr-butler/go-systemd/v22
 
 go 1.12
 
